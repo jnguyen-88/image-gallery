@@ -13,19 +13,6 @@ img {
   height: 200px;
 }
 
-li {
-  list-style: none;
-  padding-left: 13px;
-  color: #e6e6e6;
-  font-style: italic;
-  display: none;
-}
-
-li a {
-  text-decoration: none;
-  color:  #b3b3b3;
-}
-
 .img-gallery {
   width: 90%;
   margin: 0 auto;
@@ -40,18 +27,6 @@ li a {
 #container {
   margin: 0 auto;
   width: 80%;
-}
-
-#search-bar {
-  width: 100%;
-  margin: 1.5rem auto .5rem auto;
-  display: block;
-  border: 3px solid #d9d9d9;
-  border-radius: 8px;
-  outline: none;
-  padding-left: 8px;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 /*============
@@ -89,6 +64,32 @@ li a {
 .search {
   width: 40%;
   margin: 1.5rem auto 2rem auto;
+}
+
+#search-bar {
+  width: 100%;
+  margin: 1.5rem auto .5rem auto;
+  display: block;
+  border: 3px solid #d9d9d9;
+  border-radius: 8px;
+  outline: none;
+  padding-left: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+li {
+  list-style: none;
+  padding-left: 13px;
+  color: #e6e6e6;
+  font-style: italic;
+  display: none;
+  margin-bottom: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color:  #b3b3b3;
 }
 
 
