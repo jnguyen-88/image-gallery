@@ -4,13 +4,18 @@
     box-sizing: border-box;
 }
 
+html {
+  margin: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 }
 
 .img-gallery {
@@ -20,14 +25,38 @@ img {
 
 .row {
   display: flex;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   justify-content: space-between;
 }
 
-#container {
-  margin: 0 auto;
-  width: 80%;
+/*============
+ Heading
+==============*/
+
+
+.header {
+  background-color: #3f729b;
+  height: 9rem;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+h1 {
+  margin: 0;
+  color: #fff;
+  letter-spacing: 4.8px;
+  font-family: 'Lobster', cursive;
 }
+
+.fas {
+  color: white;
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
 
 /*============
   LightBox
